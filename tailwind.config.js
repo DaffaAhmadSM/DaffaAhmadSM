@@ -15,7 +15,8 @@ module.exports = {
         "redHoverDeactive" : "#592D2D"
       },
       backgroundImage:{
-        'noice': "url('./src/assets/img/Noice Invert.png')",
+        'noice': "url('./src/assets/img/Noice.png')",
+        'noiceInvert': "url('./src/assets/img/NoiceInvert.png')",
       },
       backgroundColor: {
         '2D2D2D': '#2D2D2D',

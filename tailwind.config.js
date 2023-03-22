@@ -8,7 +8,8 @@ module.exports = {
     extend: {
       fontFamily: {
         'Hansief': ['"Hansief Rough Regular"'],
-        'poppins': ['Poppins', 'sans-serif']
+        'poppins': ['Poppins', 'sans-serif'],
+        'Redwing': ['"Redwing Regular"'],
       },
       colors: {
         "redHoverActive" : "#B41923",
@@ -22,6 +23,12 @@ module.exports = {
         '2D2D2D': '#2D2D2D',
         "B41923" : "#B41923",
         "592D2D" : "#592D2D"
+      },
+      transitionTimingFunction: {
+        'in-expo': 'cubic-bezier(0.95, 0.05, 0.795, 0.035)',
+        'out-expo': 'cubic-bezier(0.19, 1, 0.22, 1)',
+        'cubic-menu': 'cubic-bezier(0.87, 0.23, 0.13, 0.77)'
+
       }
       
     },

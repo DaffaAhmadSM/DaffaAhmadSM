@@ -4,15 +4,15 @@
 </script>
 
 <template>
-    <div class="bg-2D2D2D flex h-screen flex-col bg-noice">
+    <div class="bg-2D2D2D flex min-h-screen flex-col bg-noice lg:overflow-hidden">
         <nav>
             <Navbar/>
         </nav>
-        <main>
+        <main class="min-h-full">
             <RouterView/>
         </main>
         <footer>
-            <p>Footer</p>
+            
         </footer>
     </div>
     

@@ -5,7 +5,7 @@
 
 <template>
     <div class="bg-2D2D2D flex min-h-screen flex-col bg-noice lg:overflow-hidden">
-        <nav>
+        <nav v-if="!$route.meta.hidenav">
             <Navbar/>
         </nav>
         <main class="min-h-full">

@@ -51,7 +51,7 @@
                     <router-link :to="{name:'about'}" @click="toggleMenuAnime"><span class="hover:bg-black hover:text-white pr-10 hover:text-[8.6rem] transition-all duration-300">About</span></router-link>
                     <router-link :to="{name:'works'}" @click="toggleMenuAnime"><span class="hover:bg-black hover:text-white pr-10 hover:text-[8.6rem] transition-all duration-300">Works</span></router-link>
                     <router-link :to="{name:''}" @click="toggleMenuAnime"><span class="hover:bg-black hover:text-white pr-10 hover:text-[8.6rem] transition-all duration-300">Contact</span></router-link>
-                    <router-link :to="{name:''}" @click="toggleMenuAnime"><span class="hover:bg-black hover:text-white pr-10 hover:text-[8.6rem] transition-all duration-300">Blog</span></router-link>
+                    <router-link :to="{name:''}" @click="toggleMenuAnime"><span class="hover:bg-redHoverActive hover:text-white pr-10 hover:text-[8.6rem] transition-all duration-300">Blog</span></router-link>
             </div>
         </div>
 

@@ -1,9 +1,18 @@
-<script lang="ts">
+<script lang="js">
+export default {
+    name: 'About',
+    setup() {
+        return {
+            Gwejh
+        }
+    },
+}
+const Gwejh = new URL('../assets/img/Gwejh.jpg', import.meta.url).href
 </script>
 
 <template>
     <div class="flex h-screen justify-center items-center flex-row container gap-8 overflow-auto">
-        <img src="./../assets/img/Gwejh.jpg" alt="aboutme" width="256" height="256" class="max-sm:hidden">
+        <img :src="Gwejh" alt="aboutme" width="256" height="256" class="max-sm:hidden">
         <div class=" font-Redwing w-1/2 text-justify max-[500px]:text-center max-sm:mt-20">
             <div class="text-5xl font-Hansief md:text-6xl">
                 <span class="inline-block">M</span>

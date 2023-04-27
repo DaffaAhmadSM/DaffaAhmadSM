@@ -1,4 +1,4 @@
-<script lang="js">
+<script setup()>
 export default {
     name: 'About',
     setup() {

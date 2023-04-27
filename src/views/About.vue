@@ -24,7 +24,7 @@ export default {
         }
     },
 }
-const Gwejh = new URL('../assets/img/Gwejh.jpg', import.meta.url).href
+const Gwejh = new URL('../assets/img/Gwejh.JPG', import.meta.url).href
 </script>
 <style lang="css">
     

@@ -1,14 +1,4 @@
-<script setup()>
-export default {
-    name: 'About',
-    setup() {
-        return {
-            Gwejh
-        }
-    },
-}
-const Gwejh = new URL('../assets/img/Gwejh.jpg', import.meta.url).href
-</script>
+
 
 <template>
     <div class="flex h-screen justify-center items-center flex-row container gap-8 overflow-auto">
@@ -25,6 +15,17 @@ const Gwejh = new URL('../assets/img/Gwejh.jpg', import.meta.url).href
         
     </div>
 </template>
+<script setup()>
+export default {
+    name: 'About',
+    setup() {
+        return {
+            Gwejh
+        }
+    },
+}
+const Gwejh = new URL('../assets/img/Gwejh.jpg', import.meta.url).href
+</script>
 <style lang="css">
     
 </style>

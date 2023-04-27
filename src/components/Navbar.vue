@@ -13,7 +13,7 @@
             </div>
             <div class="flex flex-row justify-between ml-32">
                 <li>
-                <router-link class="text-white font-Hansief underline decoration-8 decoration-redHoverDeactive" :to="{name: 'works'}">works</router-link></li>
+                <router-link class="text-white font-Hansief underline decoration-8 decoration-redHoverDeactive" :to="{name: 'contact'}">contact</router-link></li>
                 <button class="font-Hansief z-20 transition-all duration-300" @click="toggleMenuAnime" :class="{ 'text-black': menuActive }">
                     <div class="border-r-4" :class="{'border-gray-700': menuActive}">
                     <li>
@@ -46,12 +46,12 @@
         </ul>
 
         <!-- menu full screen with animation fade in :class-->
-        <div class="bg-white bg-noiceInvert fixed top-0 left-0 w-full h-full z-10 transition-all duration-300 ease-cubic-menu" :class="{'left-full': !menuActive}">
-                <div class="flex flex-col justify-start text-black max-md:text-9xl max-md:mt-40 xl:text-[8.5rem] text-[8.3rem] lg:ml-60 font-Redwing">
+        <div class="bg-white fixed top-0 left-0 w-full h-full z-10 transition-all duration-300 ease-cubic-menu overflow-scroll" :class="{'left-full': !menuActive}" style="background-image: url(/NoiceInvert.png);">
+            <div class="flex flex-col justify-start text-black max-md:text-9xl max-md:mt-40 xl:text-[8.5rem] text-[8.3rem] lg:ml-60 font-Redwing">
                     <router-link :to="{name:'about'}" @click="toggleMenuAnime"><span class="hover:bg-black hover:text-white pr-10 hover:text-[8.6rem] transition-all duration-300">About</span></router-link>
                     <router-link :to="{name:'works'}" @click="toggleMenuAnime"><span class="hover:bg-black hover:text-white pr-10 hover:text-[8.6rem] transition-all duration-300">Works</span></router-link>
-                    <router-link :to="{name:''}" @click="toggleMenuAnime"><span class="hover:bg-black hover:text-white pr-10 hover:text-[8.6rem] transition-all duration-300">Contact</span></router-link>
-                    <router-link :to="{name:''}" @click="toggleMenuAnime"><span class="hover:bg-redHoverActive hover:text-white pr-10 hover:text-[8.6rem] transition-all duration-300">Blog</span></router-link>
+                    <router-link :to="{name:'contact'}" @click="toggleMenuAnime"><span class="hover:bg-black hover:text-white pr-10 hover:text-[8.6rem] transition-all duration-300">Contact</span></router-link>
+                    <router-link :to="{name:''}" @click="toggleMenuAnime"><span class="hover:bg-redHoverActive hover:text-white pr-10 hover:text-[8.6rem] transition-all duration-300 group">Blog<span class="group-hover:inline hidden text-lg">COMMING SOON</span></span></router-link>
             </div>
         </div>
 

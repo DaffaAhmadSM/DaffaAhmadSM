@@ -7,3 +7,13 @@
       @apply text-white;
     } 
   }
+
+  @font-face {
+    font-family: 'Hansief';
+    src: url(/src/assets/Hansief.otf);
+  }
+
+  @font-face {
+    font-family: 'Redwing';
+    src: url(/src/assets/Redwing-Medium.otf);
+  }

@@ -7,9 +7,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'Hansief': ['"Hansief Rough Regular"'],
+        'Hansief': ['Hansief'],
         'poppins': ['Poppins', 'sans-serif'],
-        'Redwing': ['"Redwing Regular"'],
+        'Redwing': ['Redwing'],
       },
       colors: {
         "redHoverActive" : "#B41923",

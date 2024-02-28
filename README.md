@@ -9,7 +9,9 @@ Hi, I'm a programmer with several years of experience. I know several programmin
 <img align="left" alt="svelte" width=30 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg"/>
 <img align="left" alt="php" width=30 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg"/>
 <img align="left" alt="go" width=30 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg"/>
-
+<br/>
+<br/>
+<br/>
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=DaffaahmadSM&show_icons=true&theme=dracula" />
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DaffaahmadSM&hide_progress=true&theme=dracula" />
 

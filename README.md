@@ -30,7 +30,7 @@ I'm a passionate web developer focused on building clean, efficient, and user-fr
 
 ### 📊 My GitHub Stats
 <p align="center">
-  <img align="center" src="https://github-readme-stats-eight-theta.vercel.app/api?username=DaffaAhmadSM&show_icons=true&theme=algolia&include_all_commits=true&count_private=true" alt="DaffaahmadSM's GitHub stats" />
+  <img align="center" src="https://github-readme-stats-eight-theta.vercel.app/api?username=DaffaAhmadSM&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" alt="DaffaahmadSM's GitHub stats" />
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DaffaahmadSM&layout=compact&langs_count=8&theme=dracula" alt="DaffaahmadSM's top languages" />
 </p>
 

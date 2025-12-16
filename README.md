@@ -36,6 +36,10 @@ I'm a passionate web developer focused on building clean, efficient, and user-fr
 
 ---
 
+<p align="center">
+  <img src="https://api.boot.dev/v1/users/public/5743c5d5-9035-4704-bdea-91e501bf6449/thumbnail" >
+</p>
+
 ### 🔗 Connect with Me
 <p align="left">
   <a href="https://instagram.com/dafra_aa" target="blank"><img align="center" src="https://raw.githubusercontent.com/DaffaAhmadSM/DaffaAhmadSM/master/image/instagram.svg" alt="darfr12" height="30" width="40" /></a>

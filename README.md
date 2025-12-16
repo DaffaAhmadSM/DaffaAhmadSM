@@ -1,6 +1,6 @@
 ### 👋 Hello, I'm Daffa' Ahmad!
 
-I'm a passionate web developer focused on building clean, efficient, and user-friendly web applications. With a solid background in both frontend and backend technologies, I enjoy bringing ideas to life from concept to deployment.
+I'm a passionate web developer focused on building clean, efficient, and user-friendly web applications. With a solid background in both frontend and backend development, I enjoy bringing ideas from concept to deployment.
 
 
 ---
